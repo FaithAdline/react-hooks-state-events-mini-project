@@ -44,3 +44,4 @@ test("displays all tasks when the 'All' button is clicked", () => {
   expect(screen.queryByText("Build a todo app")).toBeInTheDocument();
   expect(screen.queryByText("Buy rice")).toBeInTheDocument();
 });
+
